@@ -1,36 +1,43 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net7.0": []
   },
   "packageFolders": {
-    "/home/rahmani/.nuget/packages/": {}
+    "Z:\\Rahmani\\.nuget\\packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rahmani/source/csharp_console/csharp_console.csproj",
+      "projectUniqueName": "Z:\\source\\encrypt_demo\\csharp_console.csproj",
       "projectName": "csharp_console",
-      "projectPath": "/home/rahmani/source/csharp_console/csharp_console.csproj",
-      "packagesPath": "/home/rahmani/.nuget/packages/",
-      "outputPath": "/home/rahmani/source/csharp_console/obj/",
+      "projectPath": "Z:\\source\\encrypt_demo\\csharp_console.csproj",
+      "packagesPath": "Z:\\Rahmani\\.nuget\\packages",
+      "outputPath": "Z:\\source\\encrypt_demo\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/rahmani/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Rahmani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +48,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -59,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.100-rc.1.23455.1/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
