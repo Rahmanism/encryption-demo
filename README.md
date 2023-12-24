@@ -1,5 +1,5 @@
 # csharp_console
-Default C# Console App
+Encryption/Decryption using AES in C#.
 
 The result of these commands:  
 ```
